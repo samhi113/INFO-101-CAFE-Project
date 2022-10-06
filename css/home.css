@@ -8,21 +8,71 @@ body{
 	font-family: "Montserrat";
 }
 
+a:hover, button:hover{
+	cursor: pointer;
+}
+
 nav{
 	position: absolute;
 	top: 0;
 	left: 0;
-	height:10%;
+	
+	min-height: 3em;
+	height:10vh;
+	
 	width:100%;	
-	background-color: black;
+	background-color: #191919;
 	min-height: 65px;
+	
+	display: flex;
+	justify-content: space-around;
+    align-items: center;
+}
+
+#siteTitle{
+	font-size: 1.65vw;
+	font-family: "Montserrat";
+	color: white;
+	
+	margin: 0px;
+}
+
+nav > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav > div > a > button {
+	min-width: 8em;
+	width: 13vw;
+	
+	min-height: 1.5em;
+	height: 4.6vh;
+	font-size-adjust: auto;
+	font-size: 1em;
+	
+	border-radius: 0.33vw;
+	border: solid 0px #990000;
+	
+	background-color: #990000;
+	color: white;
+	font-family: "Montserrat";
+}
+
+.leftButton{
+	margin-right: 5%;
+}
+
+.rightButton{
+	margin-left: 5%;
 }
 
 h1 {
     color: #990000;
     font-family: "Lora";
     font-weight: bold;
-    margin-top: 6%;
+    margin-top: 12vh;
     display: flex;
     justify-content: center;
 }
@@ -32,6 +82,9 @@ h1 {
 }
 
 .bigLeftSmallRight {
+	background-color: white;
+	border-radius: 2vw;
+	
     display: flex;
     justify-content: center;
     align-items: flex-start;
