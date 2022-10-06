@@ -6,23 +6,74 @@
 body{
 	background-color: #F8F8F8;
 	font-family: "Montserrat";
+	color: #191919;
+}
+
+a:hover, button:hover{
+	cursor: pointer;
 }
 
 nav{
 	position: absolute;
 	top: 0;
 	left: 0;
-	height:10%;
+	
+	min-height: 3em;
+	height:10vh;
+	
 	width:100%;	
-	background-color: black;
+	background-color: #191919;
 	min-height: 65px;
+	
+	display: flex;
+	justify-content: space-around;
+    align-items: center;
+}
+
+#siteTitle{
+	font-size: 1.65vw;
+	font-family: "Montserrat";
+	color: white;
+	
+	margin: 0px;
+}
+
+nav > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav > div > a > button {
+	min-width: 8em;
+	width: 13vw;
+	
+	min-height: 1.5em;
+	height: 4.6vh;
+	font-size-adjust: auto;
+	font-size: 1em;
+	
+	border-radius: 0.33vw;
+	border: solid 0px #990000;
+	
+	background-color: #990000;
+	color: white;
+	font-family: "Montserrat";
+}
+
+.leftButton{
+	margin-right: 5%;
+}
+
+.rightButton{
+	margin-left: 5%;
 }
 
 h1 {
     color: #990000;
     font-family: "Lora";
     font-weight: bold;
-    margin-top: 6%;
+    margin-top: calc(8vh + 1.5em);
     display: flex;
     justify-content: center;
 }
@@ -64,19 +115,14 @@ hr{
 	margin-top: -5%;
 }
 
-.threeBarLayout > ul > li > p {
+.threeBarLayout > ul > li > *:not(h2){
 	font-family: "Lora";
-    font-size: 1.1vw;
+    font-size: 1em;
 	margin-top: -2%;
 }
 
-.threeBarLayout > ul > li > ul {
-	font-family: "Lora";
-	font-size:1.1vw;
-}
-
 #firstParagraphOnThreeBar{
-	margin-top: -1%;
+	margin-top: 1%;
 }
 
 .threeBarLayout > ul > li > h2{
@@ -85,13 +131,15 @@ hr{
 	font-weight: 700;
 }
 
-.threeBarLayout{
-	list-style-type: none;
+.threeBarLayout {
+    list-style-type: none;
     text-decoration: none;
     display: flex;
-    height: 75%;
-	
-	margin-top: -5%;
+    height: 90%;
+    margin-top: -5%;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 footer {
