@@ -8,12 +8,8 @@ body{
 	font-family: "Montserrat";
 }
 
-a:hover, button:hover{
-	cursor: pointer;
-}
-
 nav{
-	position: absolute;
+	position: fixed;
 	top: 0;
 	left: 0;
 	
@@ -58,6 +54,15 @@ nav > div > a > button {
 	background-color: #990000;
 	color: white;
 	font-family: "Montserrat";
+	
+	transition: background-color 0.5s, color 0.5s, font-weight 0.5s;
+}
+
+nav > div > a > button:hover{
+	cursor: pointer;
+	background-color: white;
+	color: #990000;
+	font-weight: bold;
 }
 
 .leftButton{
@@ -105,6 +110,7 @@ h1 {
 	width: 58vw;
 	aspect-ratio:1.77777778;
 	border:.16vw solid #990000;
+	border-radius: 5%;
 }
 
 .smallRight{
