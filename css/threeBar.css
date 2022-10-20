@@ -63,15 +63,3 @@ hr{
     flex-direction: column;
     align-items: center;
 }
-
-footer {
-	min-height: 1.5em;
-	height: 10vh;
-	max-height: 2.5em;
-	
-    display: flex;
-    align-content: center;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
