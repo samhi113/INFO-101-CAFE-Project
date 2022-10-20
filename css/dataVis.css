@@ -22,7 +22,7 @@
 	background-color:#990000;
 	
 	font-family: "Montserrat";
-	font-size: calc(1.5em);
+	font-size: calc(1.5em - 0.5vh);
 	color: white;
 	
 	transition: background-color 0.5s, color 0.5s;
