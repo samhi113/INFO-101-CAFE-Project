@@ -25,9 +25,9 @@
 
 #homePageImage{
 	width: 58vw;
-	aspect-ratio:1.77777778;
-	border:.16vw solid #990000;
-	border-radius: 5%;
+	aspect-ratio: 1.77777778;
+	border:.16vw solid #005522;
+	border-radius: 2vw;
 }
 
 .smallRight{
@@ -38,7 +38,7 @@
 }
 
 .smallRight > p {
-	font-size: calc(1.1vw);
+	font-size: calc(0.5em + 0.5vw);
 }
 
 hr{
@@ -46,7 +46,7 @@ hr{
 	clear: both;
 	display: block;
 	width: 100%;
-	background-color: #990000;
+	background-color: #005522;
 	height: 2px;
 }
 
