@@ -13,10 +13,10 @@
 
 .threeBarLayout > ul > li {
 	border: 1vw solid white;
-	border-radius: 3vw;
+	border-radius: 2vw;
 	background-color: white;
 	
-	width: 30%;
+	width: 22.5%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -31,7 +31,7 @@ hr{
 	clear: both;
 	display: block;
 	width: 100%;
-	background-color: #990000;
+	background-color: #005522;
 	height: 2px;
 	margin-top: -10vh;
 	margin-bottom: 15px;
